@@ -13,16 +13,15 @@ This is my graduation project, it was a team based project.
 
 2- Tools:
 
-    (STM32F103C8T6, 4 large servomotors with magnetic encoder, MATLAB, Simulink, 
+    (STM32F103C8T6, 4 large servomotors with magnetic encoder, MATLAB, 
     magnetic encoder, temperature sensor, power supply, I2C motor driver, Arduino 
     IDE).
 
 3- Files description:
 
-    3.1- (arduino_code.ino): 
-    3.2- (esp_code.ino): 
-    3.3- (Client_final.py): 
-    3.4- (Auto_pilot_app): 
-    3.5- (remote-control_app): 
+    3.1- (fial_edition.ino): is the code used for STM32 microcontroller to control and move servomotors to the given position. 
+    3.2- (ik4dof.m): is the MATLAB code, which is used to simulate the arm movements and calculates the angle of movement of each servomotor.
+    3.3- (Paper.pdf): paper of our graduation project.
+    3.4- (Report.pdf): detailed description for our project.
 
 4- Video: (https://youtu.be/o14xiIMUBvY)
